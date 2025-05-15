@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Missão Números - Jogo Pedagógico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #4a90e2;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        section {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #4a90e2;
+        }
+        .card {
+            background: #e6f0ff;
+            border-left: 6px solid #4a90e2;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Missão Números</h1>
+    <p>Jogo Pedagógico de Matemática</p>
+</header>
+
+<section>
+    <h2>Objetivo</h2>
+    <p>Ser o primeiro a completar a missão resolvendo corretamente os desafios matemáticos e acumulando 10 pontos.</p>
+
+    <h2>Como Jogar</h2>
+    <ul>
+        <li>Cada jogador sorteia uma carta e tenta resolver o desafio.</li>
+        <li>Se acertar, ganha os pontos da carta. Se errar, perde a vez.</li>
+        <li>Vence quem atingir exatamente 10 pontos.</li>
+        <li>Ultrapassou 10 pontos? Perde 2 e tenta novamente na próxima rodada.</li>
+        <li>Desafios Relâmpago dobram pontos se resolvidos em 30 segundos.</li>
+    </ul>
+
+    <h2>Cartas de Desafio (exemplos)</h2>
+    <div class="card"><strong>Operações Rápidas (1 ponto):</strong> Resolva: (5 + 3) × 2 - 4</div>
+    <div class="card"><strong>Geometria (2 pontos):</strong> O perímetro de um quadrado é 40 cm. Qual é o lado?</div>
+    <div class="card"><strong>Enigma Lógico (3 pontos):</strong> Sou maior que 30 e menor que 40. Sou múltiplo de 4. Quem sou eu?</div>
+    <div class="card"><strong>Desafio Relâmpago (2 pontos):</strong> Resolva: 144 ÷ 12 em 30 segundos!</div>
+
+    <h2>Versão PDF</h2>
+    <p><a href="Missao_Numeros_Jogo_Completo.pdf" download>Clique aqui para baixar o PDF completo do jogo</a>.</p>
+</section>
+
+</body>
+</html>
